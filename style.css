@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 250px;
+    padding: 1rem;
+}
+
+.profile-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.card h2 {
+    margin: 1rem 0 0.5rem;
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card p {
+    margin: 0.5rem 0;
+    color: #777;
+}
+
+.company-logo {
+    width: 100px;
+    height: auto;
+    margin-top: 1rem;
+}
